@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services Interaction</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <img id="background-pattern" src="bg.svg" alt="Animated background pattern" />
+  
+  <div class="page-wrapper">
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <span class="dot"></span> Our services
+        </div>
+        <div class="header-right">
+          <a href="#">Let's work together</a>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <div class="left-panel">
+          <div class="title-container">
+            <div class="title-part-word">
+              <span data-title-section="front-end">FRONT</span>
+              <span data-title-section="back-end" style="position: absolute; top: 0; transform: translateY(100%) scaleY(0.9);">BACK</span>
+            </div>
+            <div class="title-static-word">END</div>
+          </div>
+          <div class="number-container">
+            <div class="page-number" data-number-section="front-end">01</div>
+            <div class="page-number" data-number-section="back-end" style="position: absolute; top: 0; transform: translateY(100%) scaleY(0.9);">02</div>
+          </div>
+        </div>
+
+        <div class="right-panel">
+          <section id="front-end-services" class="service-category">
+            <h2 class="category-title">(Front End services)</h2>
+            <div class="accordion-list"></div>
+          </section>
+
+          <section id="back-end-services" class="service-category">
+            <h2 class="category-title">(Back End services)</h2>
+            <div class="accordion-list"></div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
